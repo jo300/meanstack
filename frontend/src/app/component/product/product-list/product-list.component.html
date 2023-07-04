@@ -1,0 +1,17 @@
+<div class="row">
+    <h1>Add Product to Cart</h1>
+    <div class="card " *ngFor="let product of products;let i=index">
+        <!-- <img [src]="product.imageurl" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+            <h3>{{product.productTitle}}</h3>
+            <p class="card-text"> <span>Description: </span> {{product.description | slice:0:30}}</p>
+            <p class="card-text"> <span>Price: </span> {{product.price}}</p>
+            <div class="card-actions">
+                <button class="add" (click)="add(product._id,i)">
+                    {{buttonLabel}}
+                </button>
+
+            </div>
+        </div>
+    </div>
+</div>

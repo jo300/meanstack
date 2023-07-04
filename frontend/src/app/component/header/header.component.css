@@ -1,0 +1,12 @@
+.container-fluid a {
+  color: #fff;
+}
+.container-fluid .nav-link a:active {
+  color: red;
+}
+.dropdown-menu li a {
+  color: #fff;
+}
+.dropdown-menu {
+  background: rgb(127, 127, 134);
+}

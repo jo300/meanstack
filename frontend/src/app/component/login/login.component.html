@@ -1,0 +1,25 @@
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="col"></div>
+        <div class="col-md-8 col-md-offset-2 ">
+
+            <form [formGroup]="loginForm" (ngSubmit)="login()">
+                <header class="header">
+                    <h1>Login</h1>
+                </header>
+
+                <input type="email" name="email" class="form-control" placeholder="Your email" formControlName="email">
+                <br />
+
+                <input type="password" name="password" class="form-control" placeholder="password"
+                    formControlName="password">
+                <br />
+                <input type="submit" value="submit" class="btn btn-success">
+            </form>
+            <button type="button" class="btn btn-primary" routerLink="/register">Register</button>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>

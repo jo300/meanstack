@@ -1,0 +1,19 @@
+.btn {
+  width: 20vw;
+  margin-top: 7px;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.header {
+  margin-bottom: 2rem;
+}
+
+.app-nav {
+  display: flex;
+  flex-direction: row;
+}
+.container-fluid {
+  margin-top: 100px;
+}

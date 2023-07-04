@@ -1,0 +1,12 @@
+.container-fluid {
+  margin-top: 0;
+  margin-left: 0;
+  padding-bottom: 80px;
+}
+.section {
+  margin-top: 80px;
+}
+.section .row {
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
